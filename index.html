@@ -7,13 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script>
         window.onload = function(){
-            var left = document.getElementsByClassName('left-block');
             if (window.innerWidth > 1024) {
-                left[0].style.height = window.innerHeight + 'px';
-            }
-            var textwrapper = document.getElementsByClassName('text-wrapper');
-            if (window.innerWidth > 1024) {
-                textwrapper[0].style.height = window.innerHeight-48 + 'px';
             } else {
                 textwrapper[0].style.height = window.innerHeight-168 + 'px';
             }

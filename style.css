@@ -81,6 +81,7 @@ a {
 .fixed-menu {
     position: sticky;
     top: 0px;
+    z-index: 10;
     left: 24px;
     right: 24px;
     padding: 24px 0;
@@ -91,7 +92,9 @@ a {
 }
 
 .service-header {
-    border-top: 1px dashed black;
+    position: sticky;
+    top: 72px;
+    background-color: white;
     border-bottom: 1px dashed black;
     padding: 24px 0;
     text-transform: uppercase;
@@ -99,6 +102,11 @@ a {
     box-sizing: border-box;
 }
 
+.service-item {
+    border-top: none;
+    margin-top: 0;
+    box-sizing: border-box;
+}
 .service-item:first-child .service-header {
     border-top: none;
     margin-top: 0;
@@ -110,7 +118,7 @@ a {
 }
 
 .service-list {
-    margin: 24px 0;
+    padding: 24px 0;
 }
 
 .popups .flex-block {
@@ -228,5 +236,18 @@ p {
 
     .page-image-wrapper {
         height: 312px;
+    }
+
+    .service-header {
+        top: 43px;
+        padding: 12px 0;
+    }
+
+    .service-list {
+        padding: 12px 0;
+    }
+
+    .fixed-menu {
+        padding: 12px 0;
     }
 }

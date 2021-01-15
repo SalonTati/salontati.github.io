@@ -213,10 +213,11 @@ p {
         width: 100%;
         float: none;
         padding: 0 12px 12px;
+        min-height: 0px;
     }
 
     .text-wrapper {
-        margin-top: 144px;
+        margin-top: 12px;
     }
 
     footer {

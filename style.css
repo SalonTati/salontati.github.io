@@ -146,6 +146,10 @@ footer img {
     height: 18px;
 }
 
+.addresses {
+    margin-top: 24px;
+}
+
 .addresses>div {
     margin-bottom: 24px;
 }
@@ -199,7 +203,7 @@ p {
     }
 
         /* Hide scrollbar for Chrome, Safari and Opera */
-        .left-block::-webkit-scrollbar {
+    .left-block::-webkit-scrollbar {
         display: none;
     }
     
@@ -231,6 +235,10 @@ p {
     }
 
     .text-wrapper {
+        min-height: calc(100vh - 12px);
+    }
+
+    .wrapper {
         margin-top: 12px;
     }
 
